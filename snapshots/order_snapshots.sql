@@ -6,6 +6,7 @@
       unique_key='id',
       strategy='timestamp',
       updated_at='_elt_updated_at',
+      tags=['foo']
     )
 }}
 
