@@ -22,4 +22,4 @@ renamed as (
 
 )
 
-select * from renamed, pg_sleep(5)
+select renamed.* from renamed, pg_sleep(5)
