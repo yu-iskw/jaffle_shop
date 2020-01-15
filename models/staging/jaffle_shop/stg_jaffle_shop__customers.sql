@@ -1,7 +1,7 @@
 with source as (
 
     select * from {{ source('raw_jaffle_shop', 'customers') }}
-        where 1=1
+        where true
 
 ),
 
