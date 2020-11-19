@@ -1,3 +1,10 @@
+{{
+  config(
+    materialized="view",
+    tags=["staging", "hourly"],
+  )
+}}
+
 with source as (
 
     {#-
