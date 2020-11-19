@@ -1,0 +1,4 @@
+selectors:
+  - name: view
+    definition:
+      "config.materialized:view"
